@@ -12,6 +12,12 @@
  * 
  */
 int main(int argc, char** argv) {
+    int x=2;
+    int y=1;
+    while(x>y)
+    {
+        printf("Mama verga");
+    }
     /* Desbordamiento de valor máximo 
     unsigned char x = 256;
     unsigned char y = 1;
@@ -35,6 +41,7 @@ int main(int argc, char** argv) {
     printf("\n");
     printf("%d,%d,%d\n", si, ss, sc);
     printf("%08x,%08x,%08x\n", si, ss, sc);
+    printf("Mama verga");
      ------------------------------ */
     /* Desbordamiento 
     unsigned char uc1 = 0xFF;
@@ -60,6 +67,8 @@ int main(int argc, char** argv) {
     /* TRABAJAR CON Punto Flotante */
     printf("\n 0.25 = %f", (float) 0.25);
     printf("\n 0.25 = %.50f", (float) 0.25);
+    
+    printf("Mama verga");
             /*  ------------------------------ */
     return (EXIT_SUCCESS);
 }
